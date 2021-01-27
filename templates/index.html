@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/scripts/app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/CSS/style.css">
+    <title>Juego de la memoria</title>
+</head>
+<body>
+        <div class="container">
+            <h1 class="display-4">Juego de la memoria</h1>
+        </div>
+        <div class="container">
+            <div class="fila">
+                <div class="ecItem" id="ec0"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec1"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec2"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec3"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec4"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div id="ec5"><img value="0" width="100" height ="107" src="../static/images/matriz.png" alt=""></div>
+            </div>
+            <div class="fila">
+                <div class="ecItem" id="ec6"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec7"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec8"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec9"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div id="ec10"><img value="0" width="100" height ="107" src="../static/images/matriz.png" alt=""></div>
+                <div class="ecItem" id="ec11"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+            </div>
+            <div class="fila">
+                <div id="ec12"><img value="0" width="100" height ="107" src="../static/images/matriz.png" alt=""></div>
+                <div class="ecItem" id="ec13"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec14"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec15"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec16"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec17"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+            </div>
+            <div class="fila">
+                <div class="ecItem" id="ec18"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec19"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec20"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div id="ec21"><img value="0" width="100" height ="107" src="../static/images/matriz.png" alt=""></div>
+                <div class="ecItem" id="ec22"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec23"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+            </div>
+            <div class="fila">
+                <div class="ecItem" id="ec24"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div id="ec25"><img value="0" width="100" height ="107" src="../static/images/matriz.png" alt=""></div>
+                <div class="ecItem" id="ec26"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec27"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec28"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec29"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+            </div>
+            <div class="fila">
+                <div class="ecItem" id="ec30"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec31"><img width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div id="ec32"><img value="0" width="100" height ="107" src="../static/images/matriz.png" alt=""></div>
+                <div class="ecItem" id="ec33"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec34"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>
+                <div class="ecItem" id="ec35"><img value="-1" width="100" height ="107" src="../static/images/image-cover-75.jpg" alt=""></div>  
+            </div>
+        </div>
+        <div class="container mt-3">
+            <button type="button" class="btn btn-success">refresh</button>
+        </div>
+</body>
+</html>
